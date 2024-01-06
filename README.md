@@ -1,5 +1,3 @@
-## README for MicroCAML Project
-
 Implementation of OCaml files to interpret a subset of the CAML language, called MicroCAML. Each file has a specific role in the interpretation process:
 
 ## microCaml_evaluator.ml
