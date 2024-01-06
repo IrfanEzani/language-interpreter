@@ -6,9 +6,6 @@ exception DeclareError of string
 exception DivByZeroError 
 
 
-(**use reference so comment the data type out **)
-(*type values = Int of int|Bool of bool|String of string*)
-
 let ref_extend env x v = (x, ref v)::env
 let extend env x v = (x,v)::env
 
